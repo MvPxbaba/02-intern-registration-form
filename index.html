@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern Registration Form</title>
+</head>
+<body>
+                <!-- introduction -->             
+    <h1>Intern Registration Form</h1>
+    <p>Welcome to our Internship Program.</p>
+
+                <!-- registration form -->
+                
+    <form action="#" method="post">
+                <!-- personal information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" autocomplete="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" autocomplete="email" required>
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+92 300-5555555" autocomplete="tel" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="address">Address:</label>
+            <br>
+            <textarea id="address" name="address" rows="4" cols="30" placeholder="Enter your complete address" autocomplete="street-address" required></textarea>
+        </fieldset>
+        <br>
+
+                <!-- training information -->
+
+        <fieldset>
+            <legend>Training Information</legend>
+            <label for="preference">Preference Interview Time:</label>
+            <input type="time" id="preference" name="preference" required>
+            <br><br>
+
+            <label for="month">Preference Training Month:</label>
+            <input type="month" id="month" name="month" required>
+            <br><br>
+
+            <label for="week">Preferred Training Week:</label>
+            <input type="week" id="week" name="week" required>
+            <br><br>
+
+            <label for="milstone">Select Your Milestone:</label>
+            <select id="milstone" name="milstone" required>
+                <option value="" selected disabled>Select a milestone</option>
+                <optgroup label="Learning Phase">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </optgroup>
+                <optgroup label="Development Phase">
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="backend">Backend Developer</option>
+                    <option value="fullstack">Fullstack Developer</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <br>
+
+                <!-- professional information -->
+
+        <fieldset>
+            <legend>Professional Information</legend>
+            <label for="portfolio">Portfolio URL:</label>
+            <input type="url" id="portfolio" name="portfolio" placeholder="https://example.com" required>
+            <br><br>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            <br><br>
+
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" autocomplete="new-password" required>
+            <br><br>
+
+            <label for="search">Search Your Skills:</label>
+            <input type="search" id="search" name="search" placeholder="Search skills..." required>
+            <br><br>
+
+            <label for="color">Preferred Color:</label>
+            <input type="color" id="color" name="color" value="#0000ff" required>
+            <br><br>
+
+            <label for="skill">Your Skill Level (1-10):</label>
+            <input type="range" id="skill" name="skill" min="1" max="10" step="1" value="5" required>
+        </fieldset>
+        <br>
+
+                <!-- interests and preferences -->
+
+        <fieldset>
+            <legend>Interests and Preferences</legend>
+            <p>Select Your Skills:</p>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="react" name="skills" value="React">
+            <label for="react">React</label>
+            <br><br>
+            <input type="checkbox" id="terms" name="terms" value="accepted" required>
+            <label for="terms">I accept the terms and conditions</label>
+        </fieldset>
+        <br>
+
+                <!-- form buttons -->
+
+        <button type="submit">Submit Registration</button>
+        <button type="reset">Reset Form</button>
+    </form>
+    <hr>
+    
+                <!-- education summary table -->    
+
+    <h2>Education Summary</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BS Information Technology</td>
+                <td>Government Islamia Graduate College</td>
+                <td>2024-2026</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Full Stack Development</td>
+                <td>NAVTTC</td>
+                <td>2025</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>Azure AI Fundamentals</td>
+                <td>Microsoft</td>
+                <td>2026</td>
+                <td>Completed</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Total Qualifications</th>
+                <th>3</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+
+                <!-- thank you message -->
+
+    <small>Thank you for applying to our Internship Program.</small>
+
+                <!-- footer -->
+
+    <footer>
+        <p><small>&copy; 2026 BloomRix. All rights reserved.</small></p>
+    </footer>
+</body>
+</html>
